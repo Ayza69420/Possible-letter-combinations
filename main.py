@@ -1,4 +1,4 @@
-def alg(n: str) -> str:
+def alg(n: str) -> list:
     x = [i for i in n]
     output = []
 
