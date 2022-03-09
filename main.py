@@ -11,4 +11,4 @@ def alg(n: str) -> list:
 
 print(alg("test")) # Pass the word as the argument and it's gonna return all the possible combinations of the word's letters.
 
-# Amount of combinations = len(alg(x)) * len(alg(x))-1
+# Amount of combinations = x * x-1 (x = alg(n))
