@@ -9,4 +9,4 @@ def alg(n: str) -> str:
             output.append("".join(x))
     return output
 
-print(alg("test"))
+print(alg("test")) # Pass the word as the argument and it's gonna return all the possible combinations of the word's letters.
